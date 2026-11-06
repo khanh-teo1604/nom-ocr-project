@@ -1,1 +1,9 @@
 datasets/
+
+
+# Checkpoints and archives
+*.ckpt
+*.bak
+*.zip
+*.pt
+*.pth
