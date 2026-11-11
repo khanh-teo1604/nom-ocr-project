@@ -53,7 +53,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path", type=str, default="datasets/nomnaocr/Pages/**/*.jpg")
+    parser.add_argument("--path", type=str, default="datasets/nomnaocr/images/**/*.jpg")
     parser.add_argument("--model", type=str, default="nom-detection/yolo11n-1280-nom-data/weights/best.pt")
     parser.add_argument("--output", type=str, default="nom-detection-gt")
     args = parser.parse_args()

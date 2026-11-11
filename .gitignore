@@ -1,9 +1,6 @@
+__pycache__/
+*.pyc
 datasets/
-
-
-# Checkpoints and archives
-*.ckpt
-*.bak
-*.zip
-*.pt
-*.pth
+runs/
+*.jpg
+*.png
